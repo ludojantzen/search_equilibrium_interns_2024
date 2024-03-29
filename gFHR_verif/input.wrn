@@ -1,0 +1,16 @@
+
+***** Wed Mar  6 10:33:52 2024
+
+Input error in parameter "div" on line 214 in file "gFHR_verif/input":
+
+Invalid value "-10", must be between 1 and 10000
+
+For parameter description, try Serpent Wiki:
+
+http://serpent.vtt.fi/mediawiki/index.php/Input_syntax_manual#div
+
+
+Simulation aborted.
+------------------------------------------------------------
+Wed Mar  6 10:33:52 2024  (errors: 1, warnings: 0, notes: 0)
+

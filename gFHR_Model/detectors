@@ -1,0 +1,11 @@
+det flux_pebbles_thermal dl u_pb de Ethermal dv 33.5103216383
+det flux_pebbles_fast    dl u_pb de Efast dv 33.5103216383
+det power_pebbles dl u_pb dr -8 void
+ene Ethermal 1 1E-11 1.86E-6
+ene Efast 1 0.1 20
+
+ene group3 1 1.00000e-11 0.62500e-6 1.00000e-4 20.0
+
+
+det zone_3group_flux n de group3 dn 1 0 120 4 0 360 1 60 369.47 10
+det zone_power n dn 1 0 120 4 0 360 1 60 369.47 10 dr -8 void
